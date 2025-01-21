@@ -1,8 +1,9 @@
 <template>
   <main>
     <!-- <MapComponent /> -->
+    <PanoramaViewer />
     <!-- <CheckUserGeoOnMap /> -->
-     <GPXVisualize />
+     <!-- <GPXVisualize /> -->
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 import CheckUserGeoOnMap from './components/maps/CheckUserGeoOnMap.vue';
 import GPXVisualize from './components/maps/GPXVisualize.vue';
 import MapComponent from './components/maps/MapComponent.vue';
+import PanoramaViewer from './components/panorams/PanoramaViewer.vue';
 
 
 </script>

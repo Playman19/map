@@ -1,9 +1,10 @@
 <template>
   <main>
     <!-- <MapComponent /> -->
-    <PanoramaViewer />
+    <!-- <PanoramaViewer /> -->
     <!-- <CheckUserGeoOnMap /> -->
-     <!-- <GPXVisualize /> -->
+    <!-- <GPXVisualize /> -->
+    <LandAreaVisualize />
   </main>
 </template>
 
@@ -12,6 +13,7 @@ import CheckUserGeoOnMap from './components/maps/CheckUserGeoOnMap.vue';
 import GPXVisualize from './components/maps/GPXVisualize.vue';
 import MapComponent from './components/maps/MapComponent.vue';
 import PanoramaViewer from './components/panorams/PanoramaViewer.vue';
+import LandAreaVisualize from './components/maps/LandAreaVisualize.vue';
 
 
 </script>
